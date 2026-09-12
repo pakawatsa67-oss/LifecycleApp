@@ -13,3 +13,5 @@
 .externalNativeBuild
 .cxx
 local.properties
+.idea/
+commit_lifecycle_steps.sh
