@@ -77,6 +77,13 @@ class MainActivity : ComponentActivity() {
         showLifecycleToast("onPause()")
     }
 
+
+    // ---------- 5) onStop() ----------
+    override fun onStop() {
+        super.onStop()
+        showLifecycleToast("onStop()")
+    }
+
 }
 
 @Composable
