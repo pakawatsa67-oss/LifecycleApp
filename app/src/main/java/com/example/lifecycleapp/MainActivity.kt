@@ -84,6 +84,13 @@ class MainActivity : ComponentActivity() {
         showLifecycleToast("onStop()")
     }
 
+
+    // ---------- 6) onDestroy() ----------
+    override fun onDestroy() {
+        super.onDestroy()
+        showLifecycleToast("onDestroy()")
+    }
+
 }
 
 @Composable
