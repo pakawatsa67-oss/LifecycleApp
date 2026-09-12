@@ -56,6 +56,13 @@ class MainActivity : ComponentActivity() {
         }
     }
 
+
+    // ---------- 2) onStart() ----------
+    override fun onStart() {
+        super.onStart()
+        showLifecycleToast("onStart()")
+    }
+
 }
 
 @Composable
